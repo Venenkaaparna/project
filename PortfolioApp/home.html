@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic page layouting</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        header{
+            background-color: navy;
+            line-height: 120px;
+        }
+
+        nav{
+            background-color: lightslategray;
+            line-height: 60px;
+        }
+        main{
+            min-height: 400px;
+            width:80%;
+            background-color: lightblue;
+            
+        }
+        aside{
+            width: 20%;
+            min-height: 400px;
+            float: right;
+            background-color: orangered;
+        }
+        footer{
+            line-height: 60px;
+            background-color: black;
+            color: whitesmoke;
+            text-align: center;
+        }
+        a{
+            display: inline-block;
+            //background-color: yellow;
+            width: 140px;
+            text-align: center;
+            text-decoration: none;
+            font-family: verdana;
+            font-size: 18px;
+        }
+        a:hover{
+            background-color: red;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;color: whitesmoke;margin: 0px;"> Welcome to My Portfolio Site</h1>
+    </header>
+    <nav>
+        <a href="#">HOME</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">CERTIFICATIONS</a>
+        <a href="#">PROJECTS</a>
+        <a href="#">TESTIMONIALS</a>
+        <a href="#">CONTACT</a>
+
+        <a href="#" style="float:right">RESUME</a>
+    </nav>
+    <aside>
+        aside menu
+    </aside>
+    <main>
+        main code
+    </main>
+    <footer>
+        All right rsereved CopyRight2023@She-Arise-2.0
+    </footer>
+
+</body>
+</html>
